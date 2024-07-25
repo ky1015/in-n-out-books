@@ -1,6 +1,6 @@
 /*
   Name: Kylie Struhs
-  Date: 07/11/2024
+  Date: 07/25/2024
   File Name: app.js
   Description: Project for Web 420
 */
@@ -78,6 +78,7 @@ app.get("/", async (req, res, next) => {
           <h3>My Shelf: Ready to Read</h3>
               <img src="/images/pjson.jfif" alt="Cover of Percy Jackson: Lost Heroes of Olympus Book 2 which depicts a teenager emerging out of the ocean carrying a golden eagle statue" height="400px" width="300px">
               <img src="/images/selection.jpg" alt="Cover of The Selection which has a teenager in a flowing blue gown surrounded by mirrors" height="400px" width="300px">
+              <p>Add a book to your shelf! Click to <a href= "/api/books"> search </a> for books by title, or author.</p>
               </div>
               <div class="previous-reads">
                 <h3>Previous Reads</h3>
